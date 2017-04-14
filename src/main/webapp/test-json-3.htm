@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<script type="text/javascript">
+
+	$(function(){
+          fff_nn=function(data){
+            alert(data.resStatus);
+              alert(data.resMsg);
+        }
+		$.ajax({
+			type : "GET",
+			url : "https://app.jxufe-ischool.top/user/login?email=1515&passwd=324324&type=1",
+			dataType : "jsonp",
+            jsonpCallback:"fff_nn" //这里定义了jsonp的回调函数
+		});
+	});
+</script>
+</head>
+<body>
+
+</body>
+</html>

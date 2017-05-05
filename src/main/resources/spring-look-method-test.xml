@@ -13,6 +13,9 @@
 
 
 
+
+
+
     <bean class="com.jxufe.imi.demo.abs.MyDefineEventListener" id="defineEventListener"/>
 
     <context:annotation-config />

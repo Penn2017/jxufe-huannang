@@ -25,6 +25,7 @@ public class AbstarctTest {
        // list.add(null);
 
 
+
         list.stream().forEach((e)->{
             e.toString();
         });
